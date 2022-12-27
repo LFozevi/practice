@@ -519,6 +519,7 @@ background-color: #e9ecef;
     color: #FFFFFF;
     width: 15px;
     height: 21px;
+    margin-top: 2px;
     margin-right: 25px;
 }
 
@@ -528,6 +529,7 @@ background-color: #e9ecef;
     background: url(../img/email_footer.svg) no-repeat;
     fill: white;
     color: #FFFFFF;
+    margin-top: 5px;
     width: 18px;
     height: 18px;
     margin-right: 25px;
@@ -546,4 +548,119 @@ background-color: #e9ecef;
     font-size: 12px;
     line-height: 15px;
     color: #FFFFFF;
+}
+
+
+.main {
+    margin-top: 120px;
+}
+
+
+.info__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #2E4A50;
+}
+
+.info__title::after {
+    content: "";
+    display: block;
+    height: 3px;
+    margin-top: 30px;
+    width: 300px;
+    background: linear-gradient(89.97deg, #006ACC 11.28%, rgba(0, 106, 204, 0.51) 41.41%, rgba(0, 106, 204, 0) 101.69%);
+}
+
+.info__text_title {
+    margin-top: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+
+.info__text_desc {
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+
+    color: #000000;
+}
+
+.info__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 50px;
+    color: #000000;
+
+}
+
+.info__priority_items {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.priority__item {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37px;
+    position: relative;
+    color: #000000;
+}
+
+.priority__item::before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #006ACC;
+    border: 1px solid #006ACC;
+    padding: 5px;
+    border-radius: 50px;
+    margin-right: 25px;
+
+}
+
+
+.info__priority {
+    margin-top: 120px;
+    font-size: 25px;
+}
+
+.priority__text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.production_info {
+    margin-top: 120px;
+}
+
+.info__title {
+    margin-bottom: 120px;
+}
+
+.product__img {
+    margin-top: 50px;
+}
+
+.realization__title {
+    margin-top: 130px;
 }
