@@ -602,6 +602,7 @@ background-color: #e9ecef;
     font-size: 20px;
     margin-top: 50px;
     color: #000000;
+    line-height: 35px;
 
 }
 
@@ -754,4 +755,34 @@ background-color: #e9ecef;
 
 .production__img {
     margin-top: 160px;
+}
+
+
+.delivery__title {
+    margin-bottom: 20px;
+}
+
+.delivery__info {
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.delivery__info_text {
+    line-height: 35px;
+    margin-right: 20px;
+}
+
+.delivry__info__img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.contact__title {
+    margin-bottom: 60px;
+}
+
+.contact__block {
+    margin-bottom: 100px;
 }
